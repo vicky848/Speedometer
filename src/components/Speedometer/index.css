@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  height: 90vh;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: bold;
+  font-weight: 'Roboto';
+  padding-top: 25px;
+}
+.img {
+  height: 220px;
+  width: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.speed-counter {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+  height: 34px;
+  width: 135px;
+  border-radius: 6px;
+  border-width: 0px;
+  margin: 5px;
+  color: #ffffff;
+}
+.apply-btn {
+  background-color: #94a3b8;
+  color: #ffffff;
+  height: 34px;
+  width: 135px;
+  border-radius: 6px;
+  border: solid 1px;
+}
+.acelerate-btn:hover {
+  cursor: pointer;
+}
+.apply-btn:hover {
+  cursor: pointer;
+}
+
+.descripton {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
